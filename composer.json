@@ -1,0 +1,37 @@
+{
+  "name": "fauzanazis/first-extension",
+  "description": "Belajar membuat extension flarum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "authors": [
+    {
+      "name": "Fauzan Azis",
+      "email": "",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FauzanAzis\\First\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "First",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
