@@ -21,6 +21,7 @@
       "FauzanAzis\\First\\": "src/"
     }
   },
+  "minimum-stability": "dev",
   "extra": {
     "flarum-extension": {
       "title": "First",
